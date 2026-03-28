@@ -14,3 +14,11 @@ Some checks you can make on your own:
 - Does your script train a neural network on the assigned data?
 - Did your script save your model?
 - Do you have separate code to import your model for use after training?
+
+# ADDITIONAL INFORMATION FOR MY ASSIGNMENT
+## This is extra stuff in case you would like to know my reasoning on where stuff is and why
+
+- I am using a PyTorch-based neural network to automate the detection process, aiming for the tightest possible bounding boxes around the moving ball.
+- Custom Data Loader: I developed a specialized class to handle `.mov` files, extracting frames and converting them into normalized tensors for model ingestion
+- Using an employed ResNet-18 architecture, utilizing Transfer Learning to leverage pre-existing feature recognition capabilities while fine-tuning the final layers for baseball detection
+- The Baseball_weights folder is in the Releases section (my file was too big to upload as its own file) (44MB oof)
