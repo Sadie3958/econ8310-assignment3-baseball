@@ -20,5 +20,5 @@ Some checks you can make on your own:
 
 - I am using a PyTorch-based neural network to automate the detection process, aiming for the tightest possible bounding boxes around the moving ball.
 - Custom Data Loader: I developed a specialized class to handle `.mov` files, extracting frames and converting them into normalized tensors for model ingestion
-- Using an employed ResNet-18 architecture, utilizing Transfer Learning to leverage pre-existing feature recognition capabilities while fine-tuning the final layers for baseball detection
-- The Baseball_weights folder is in the Releases section (my file was too big to upload as its own file) (44MB oof)
+- Using an employed ResNet-18 architecture, utilizing transfer learning to leverage pre-existing feature recognition capabilities while fine-tuning the final layers for baseball detection
+- The baseball_weights folder is in the Releases section (my file was too big to upload as its own file) (44MB oof)
